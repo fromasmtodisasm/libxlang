@@ -10,3 +10,4 @@ file(
   )
 add_library(${PROJECT_NAME} SHARED ${SRCS} ${HDRS})
 target_include_directories(${PROJECT_NAME} PUBLIC include)
+install (TARGETS xlang DESTINATION bin)
