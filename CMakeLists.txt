@@ -11,5 +11,5 @@ file(
 add_library(${PROJECT_NAME} SHARED ${SRCS} ${HDRS})
 target_include_directories(${PROJECT_NAME} PUBLIC include)
 install (TARGETS xlang DESTINATION bin)
-install(FILES ${HDRS}  DESTINATION ${PROJECT_NAME})
+install(FILES ${HDRS}  DESTINATION include/${PROJECT_NAME})
 
